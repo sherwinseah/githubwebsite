@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.b6f36576.css",
-    "main.js": "/website/static/js/main.4fb9f325.js",
+    "main.css": "/website/static/css/main.caedc72d.css",
+    "main.js": "/website/static/js/main.b23bd2a2.js",
     "static/js/787.b2eeddc1.chunk.js": "/website/static/js/787.b2eeddc1.chunk.js",
     "static/media/portrait.png": "/website/static/media/portrait.489de8ca77b025768f12.png",
     "static/media/Sherwin Seah_Resume.pdf": "/website/static/media/Sherwin Seah_Resume.728b5140724dbd1c3ec8.pdf",
@@ -13,12 +13,12 @@
     "static/media/CoolveticaRg-Regular.woff": "/website/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
     "static/media/CoolveticaRg-Regular.woff2": "/website/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/website/index.html",
-    "main.b6f36576.css.map": "/website/static/css/main.b6f36576.css.map",
-    "main.4fb9f325.js.map": "/website/static/js/main.4fb9f325.js.map",
+    "main.caedc72d.css.map": "/website/static/css/main.caedc72d.css.map",
+    "main.b23bd2a2.js.map": "/website/static/js/main.b23bd2a2.js.map",
     "787.b2eeddc1.chunk.js.map": "/website/static/js/787.b2eeddc1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6f36576.css",
-    "static/js/main.4fb9f325.js"
+    "static/css/main.caedc72d.css",
+    "static/js/main.b23bd2a2.js"
   ]
 }
