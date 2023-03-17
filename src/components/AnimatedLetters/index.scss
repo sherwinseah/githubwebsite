@@ -2,8 +2,8 @@
     display: inline-block;
     opacity: 0;
     animation: bounceIn;
-    animation-duration: 1s;
-    animation-delay: 1s;
+    animation-duration: 0.5s;
+    animation-delay: 0.1s;
     animation-fill-mode: forwards;
     min-width: 10px;
 }
@@ -21,7 +21,7 @@
 
 @for $i from 1 through 45 {
     .text-animate._#{$i} {
-        animation-delay: #{$i / 10}s;
+        animation-delay: #{$i / 20}s;
     }
 }
 

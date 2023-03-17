@@ -3,15 +3,15 @@ import "./index.scss";
 import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faHome, faUser } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faDiagramProject, faEnvelope, faHome, faProjectDiagram, faUser } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin, faRProject } from "@fortawesome/free-brands-svg-icons";
 
 const Sidebar = () => {
     return (
     <div className='nav-bar'>
         <Link className = 'logo' to='/'>
             <img src={LogoS} alt="logo" />
-            <img className='sub-logo' src={LogoSubtitle} alt="logo subtitle" />
+            {/* <img className='sub-logo' src={LogoSubtitle} alt="logo subtitle" /> */}
         </Link>
         <nav>
             <NavLink exact='true' activeclassname='active' to='/'>
@@ -23,10 +23,13 @@ const Sidebar = () => {
             <NavLink exact='true' activeclassname='active' className="contact-link" to='/contact'>
                 <FontAwesomeIcon icon={faEnvelope} color='#4d4d43' />
             </NavLink>
+            <NavLink exact='true' activeclassname='active' className="project-link" to='/project'>
+                <FontAwesomeIcon icon={faProjectDiagram} color='#4d4d43' />
+            </NavLink>
         </nav>
         <ul>
             <li>
-                <a target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/sherwin-seah-yew-hsing/'> {/*target and rel makes link open in a new page */}
+                <a target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/sherwinseah/'> {/*target and rel makes link open in a new page */}
                     <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e"/>
                 </a>
             </li>
